@@ -1,0 +1,197 @@
+! Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+! ************************ Menu ************************
+Menu.Title: flat solid
+Menu.Title.backgroundColor: #9bbfbf
+Menu.Title.color1: 
+Menu.Title.color2: 
+Menu.Title.borderWidth: 4
+Menu.Title.borderColor: #9bbfbf
+
+Menu.Title.ForegroundColor: #131519
+Menu.Title.TextColor: #131519
+Menu.Title.Font: JetBrains Mono:style=bold:size=10
+Menu.Title.Alignment: Center
+Menu.Title.MarginWidth: 8
+
+Menu.Frame: flat solid
+Menu.Frame.backgroundColor: #131519
+Menu.Frame.color1:
+Menu.Frame.color2:
+Menu.Frame.borderWidth: 4
+Menu.Frame.borderColor: #131519
+
+menu.frame.ForegroundColor: #d8d8d8
+Menu.Frame.TextColor: #d8d8d8
+Menu.Frame.DisabledColor: #6f8a91
+Menu.Frame.Font: JetBrains Mono:style=regular:size=10
+Menu.Frame.Alignment: Left
+Menu.Frame.MarginWidth: 8
+
+Menu.Active: flat solid border
+Menu.Active.backgroundColor: #9bbfbf
+Menu.Active.color1:
+Menu.Active.color2:
+Menu.Active.borderWidth: 4
+Menu.Active.borderColor: #9bbfbf
+
+Menu.Active.ForegroundColor: #131519
+Menu.Active.TextColor: #131519
+
+! ************************ Slit **************************
+Slit: flat solid
+Slit.backgroundColor: #131519
+Slit.color1:
+Slit.color2:
+Slit.borderWidth: 4
+Slit.borderColor: #131519
+
+Slit.MarginWidth: 8
+
+! ************************ Toolbar ***********************
+Toolbar: flat solid
+Toolbar.backgroundColor: #131519
+Toolbar.color1:
+Toolbar.color2:
+Toolbar.borderWidth: 4
+Toolbar.borderColor: #131519
+
+Toolbar.Label: flat solid
+Toolbar.Label.backgroundColor: #131519
+Toolbar.Label.color1:
+Toolbar.Label.color2:
+Toolbar.Label.borderWidth: 4
+Toolbar.Label.borderColor: #131519
+
+Toolbar.windowLabel: flat solid
+Toolbar.windowLabel.backgroundColor: #131519
+Toolbar.windowLabel.color1:
+Toolbar.windowLabel.color2:
+Toolbar.windowLabel.borderWidth: 4
+Toolbar.windowLabel.borderColor: #131519
+
+Toolbar.clock: flat solid
+Toolbar.clock.backgroundColor: #131519
+Toolbar.clock.color1:
+Toolbar.clock.color2:
+Toolbar.clock.borderWidth: 4
+Toolbar.clock.borderColor: #131519
+
+Toolbar.Button: flat solid
+Toolbar.Button.backgroundColor: #1d1f23
+Toolbar.Button.color1:
+Toolbar.Button.color2:
+Toolbar.Button.borderWidth: 4
+Toolbar.Button.borderColor: #1d1f23
+
+Toolbar.Button.Pressed: flat solid
+Toolbar.Button.Pressed.backgroundColor: #9bbfbf
+Toolbar.Button.Pressed.color1:
+Toolbar.Button.Pressed.color2:
+Toolbar.Button.Pressed.borderWidth: 4
+Toolbar.Button.Pressed.borderColor: #9bbfbf
+
+Toolbar.Label.TextColor: #9bbfbf
+Toolbar.windowLabel.TextColor: #d8d8d8
+Toolbar.clock.TextColor: #d8d8d8
+Toolbar.Button.ForegroundColor: #d8d8d8
+Toolbar.Alignment: Center
+Toolbar.Font: JetBrains Mono:style=regular:size=10
+Toolbar.MarginWidth: 8
+Toolbar.Label.MarginWidth: 0
+Toolbar.Button.MarginWidth: 8
+
+! ************************ Window ************************
+Window.Title.Focus: flat solid
+Window.Title.Focus.backgroundColor: #9bbfbf
+Window.Title.Focus.color1:
+Window.Title.Focus.color2:
+Window.Title.Focus.borderWidth: 4
+Window.Title.Focus.borderColor: #9bbfbf
+
+Window.Label.Focus: flat solid
+Window.Label.Focus.backgroundColor: #9bbfbf
+Window.Label.Focus.color1:
+Window.Label.Focus.color2:
+Window.Label.Focus.borderWidth: 4
+Window.Label.Focus.borderColor: #9bbfbf
+
+Window.Button.Focus: flat solid
+Window.Button.Focus.backgroundColor: #9bbfbf
+Window.Button.Focus.color1:
+Window.Button.Focus.color2:
+Window.Button.Focus.borderWidth: 4
+Window.Button.Focus.borderColor: #9bbfbf
+
+Window.Handle.Focus: flat solid
+Window.Handle.Focus.backgroundColor: #131519
+Window.Handle.Focus.color1:
+Window.Handle.Focus.color2:
+Window.Handle.Focus.borderWidth: 4
+Window.Handle.Focus.borderColor: #131519
+
+Window.Grip.Focus: flat solid
+Window.Grip.Focus.backgroundColor: #9bbfbf
+Window.Grip.Focus.color1:
+Window.Grip.Focus.color2:
+Window.Grip.Focus.borderWidth: 4
+Window.Grip.Focus.borderColor: #9bbfbf
+
+Window.Title.Unfocus: flat solid
+Window.Title.Unfocus.backgroundColor: #171a1f
+Window.Title.Unfocus.color1:
+Window.Title.Unfocus.color2:
+Window.Title.Unfocus.borderWidth: 4
+Window.Title.Unfocus.borderColor: #171a1f
+
+Window.Label.Unfocus: flat solid
+Window.Label.Unfocus.backgroundColor: #171a1f
+Window.Label.Unfocus.color1:
+Window.Label.Unfocus.color2:
+Window.Label.Unfocus.borderWidth: 4
+Window.Label.Unfocus.borderColor: #171a1f
+
+Window.Button.Unfocus: flat solid
+Window.Button.Unfocus.backgroundColor: #171a1f
+Window.Button.Unfocus.color1:
+Window.Button.Unfocus.color2:
+Window.Button.Unfocus.borderWidth: 4
+Window.Button.Unfocus.borderColor: #171a1f
+
+Window.Handle.Unfocus: flat solid
+Window.Handle.Unfocus.backgroundColor: #171a1f
+Window.Handle.Unfocus.color1:
+Window.Handle.Unfocus.color2:
+Window.Handle.Unfocus.borderWidth: 4
+Window.Handle.Unfocus.borderColor: #171a1f
+
+Window.Grip.Unfocus: flat solid
+Window.Grip.Unfocus.backgroundColor: #171a1f
+Window.Grip.Unfocus.color1:
+Window.Grip.Unfocus.color2:
+Window.Grip.Unfocus.borderWidth: 4
+Window.Grip.Unfocus.borderColor: #171a1f
+
+Window.Button.Pressed: flat solid
+Window.Button.Pressed.backgroundColor: #6f8a91
+Window.Button.Pressed.color1:
+Window.Button.Pressed.color2:
+Window.Button.Pressed.borderWidth: 4
+Window.Button.Pressed.borderColor: #6f8a91
+
+Window.Frame.Focus.BorderColor: #9bbfbf
+Window.Frame.UnFocus.BorderColor: #171a1f
+
+Window.Button.Focus.ForegroundColor: #131519
+Window.Button.Unfocus.ForegroundColor: #d8d8d8
+
+Window.Label.Focus.TextColor: #131519
+Window.Label.Unfocus.TextColor: #d8d8d8
+
+Window.Font: JetBrains Mono:style=bold:size=10
+
+Window.Alignment: Center
+Window.Title.MarginWidth: 0
+Window.Label.MarginWidth: 8
+Window.Button.MarginWidth: 8
+Window.Frame.BorderWidth: 0
+Window.HandleHeight: 4

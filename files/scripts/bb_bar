@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+
+# blackbox directory
+DIR="$HOME/.blackbox"
+
+# launch polybar
+bash "$DIR"/theme/polybar.sh

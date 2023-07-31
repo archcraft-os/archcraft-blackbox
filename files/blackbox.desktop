@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Blackbox
+Comment=a window manager for X11
+Exec=/usr/local/bin/run-blackbox
+TryExec=/usr/local/bin/run-blackbox
+Icon=blackbox
+Type=Application
