@@ -25,6 +25,8 @@ wm_config='.blackbox'
 wm_name='Blackbox'
 current_config="$config_dir/$wm_config"
 updated_config="$config_dir/${wm_config}_pacnew_`date +%d-%m-%y`"
+current_config_file="$config_dir/${wm_config}rc"
+updated_config_file="$config_dir/${wm_config}rc_pacnew_`date +%d-%m-%y`"
 
 ## -----------------------------------
 
@@ -35,7 +37,10 @@ install_wm_config() {
 	cp -rf "$skel_dir/$wm_config"/* "$current_config"/
 	chown -R ${user_name}:${user_group} "$current_config"
 
-	if [[ -d "$current_config" ]]; then
+	cp -rf "$skel_dir/${wm_config}rc" "$current_config_file"
+	chown -R ${user_name}:${user_group} "$current_config_file"
+
+	if [[ -d "$current_config" && -f "$current_config_file" ]]; then
 		echo -e ${Green}"[*] Configuration files installed successfully!\n" ${Color_Off}
 	else
 		echo -e ${Red}"[!] Failed to install configuration files!\n" ${Color_Off}
@@ -49,7 +54,10 @@ update_wm_config() {
 	cp -rf "$skel_dir/$wm_config"/* "$updated_config"/
 	chown -R ${user_name}:${user_group} "$updated_config"
 
-	if [[ -d "$updated_config" ]]; then
+	cp -rf "$skel_dir/${wm_config}rc" "$updated_config_file"
+	chown -R ${user_name}:${user_group} "$updated_config_file"
+
+	if [[ -d "$updated_config" && -f "$updated_config_file" ]]; then
 		echo -e ${Green}"[*] Latest configuration files installed successfully!" ${Color_Off}
 		echo -e ${Yellow}"[+] Latest config files are stored in : ${BYellow}${updated_config}${Yellow}" ${Color_Off}		
 		echo -e ${Purple}"[*] To use latest config files, rename ${BPurple}${updated_config}${Purple} to ${BPurple}${current_config}${Purple}\n" ${Color_Off}		
@@ -82,7 +90,7 @@ post_upgrade() {
 }
 
 post_remove() {
-	if [[ -d "$current_config"  ]]; then
+	if [[ -d "$current_config" && -f "$current_config_file" ]]; then
 		echo -e ${Red}"\n[*] Config files for ${BYellow}${wm_name}${Red} are still available in : ${BGreen}${current_config}${Red} directory. If you want to remove them, Do it manually.\n" ${Color_Off}
 	fi
 }
