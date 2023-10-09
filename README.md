@@ -1,2 +1,2 @@
 # archcraft-blackbox
- // Configuration : blackbox
+ // Configuration : Blackbox
