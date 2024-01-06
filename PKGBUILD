@@ -1,8 +1,8 @@
 # Maintainer: Aditya Shakya <adi1090x@gmail.com>
 
 pkgname=archcraft-blackbox
-pkgver=1.0
-pkgrel=1
+pkgver=2.0
+pkgrel=0
 pkgdesc="Blackbox Configurations for Archcraft"
 arch=('any')
 url="https://github.com/archcraft-os/archcraft-blackbox"
@@ -59,6 +59,6 @@ package() {
 	
 	install -Dm 644 .blackboxrc   	"$pkgdir"/etc/skel/.blackboxrc
 	
-	install -Dm 755 run-blackbox   		"$pkgdir"/usr/bin/run-blackbox
-	install -Dm 644 blackbox.desktop	"$pkgdir"/usr/share/xsessions/blackbox.desktop
+	install -Dm 755 run-blackbox   					"$pkgdir"/usr/bin/run-blackbox
+	install -Dm 644 archcraft-hook-blackbox.hook   	"$pkgdir"/usr/share/libalpm/hooks/archcraft-hook-blackbox.hook
 }
