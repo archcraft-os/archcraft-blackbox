@@ -2,7 +2,7 @@
 
 pkgname=archcraft-blackbox
 pkgver=2.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Blackbox Configurations for Archcraft"
 arch=('any')
 url="https://github.com/archcraft-os/archcraft-blackbox"
